@@ -24,6 +24,7 @@ public class h01 {
     }
 }
 
+// Criando a classe pessoa
     class Pessoa {
 
     private String nome;
@@ -43,6 +44,7 @@ public class h01 {
     }
 }
 
+//Criando a classe pessoa fisica, para adicionar com a classe pessoa
     class PessoaFisica extends Pessoa {
 
     private String cpf;
@@ -64,6 +66,7 @@ public class h01 {
     }
 }
 
+//Criando a classe pessoa juridica, para adicionar a classe pessoa
     class PessoaJuridica extends Pessoa {
 
     private String cnpj;
@@ -85,6 +88,7 @@ public class h01 {
     }
 }
 
+//Criando a classe funcionario, para adicionar a classe pessoa
     class Funcionario extends Pessoa {
 
     private String cpf;
