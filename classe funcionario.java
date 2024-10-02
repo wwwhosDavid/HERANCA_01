@@ -12,7 +12,6 @@ class Funcionario extends Pessoa {
 
     }
 
-    @Override
     public String toString() {
 
     return "Funcionario: " + super.toString() + ", Cpf: " + cpf + ", Salario: R$ " + String.format("%.2f", salario);
